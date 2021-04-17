@@ -1,0 +1,49 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <script src="./keerthi_library.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCc3XGXeBn71gHPHldvBSdGDyAIIOcNuSI",
+    authDomain: "fanfic-database.firebaseapp.com",
+    databaseURL: "https://fanfic-database-default-rtdb.firebaseio.com",
+    projectId: "fanfic-database",
+    storageBucket: "fanfic-database.appspot.com",
+    messagingSenderId: "1090236244820",
+    appId: "1:1090236244820:web:842faa35c5ad4b65031ec1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  </head>
+  <body>
+    <script src= "sketch.js"></script>
+    <h1>Recommendations</h1>
+    <hr>
+
+    <div class ="high" style="width:1000px;height:500px;border: 5px solid #000;">
+      Title:<h3 id= "1"> <script>document.getElementById("1").innerHTML = "Aristocrat"</script><br>
+    Author: SenLinYu <br>
+    Rating: Explicit<br>
+    Ship: Hermione Granger/Draco Malfoy <br>
+    Chapters: 74 + 3 <br>
+    Character Bashing: Yes; Harry Potter<br>
+    Sequel: Yes; Forever is Composed of Nows <br>
+    WIP: No <br>
+    URL: https://archiveofourown.org/works/14454174/chapters/33390198 
+    </h3>
+    </div>
+  
+
+</body></html>
